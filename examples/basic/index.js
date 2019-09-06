@@ -18,9 +18,7 @@ export default class MyClass extends Component {
 
   render({}) {
     return (
-      <div class="pagination">
-        <Pagination count={this.state.totalPages} currentPageNo={this.state.currentPageNo} onChangePageClick={this.onChangePageClick.bind(this)} />
-      </div>
+      <Pagination count={this.state.totalPages} currentPageNo={this.state.currentPageNo} onChangePageClick={this.onChangePageClick.bind(this)} />
     );
   }
 }

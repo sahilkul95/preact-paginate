@@ -21,13 +21,12 @@ onChangePageClick(pageNo) {
 }
 
 render(
-  <div class="pagination">
+  <div>
     <Pagination count={this.state.totalPages || 255} currentPageNo={this.state.currentPageNo || 1} onChangePageClick={this.onChangePageClick()} />
   </div>,
   document.body
 );
 ```
-(Do not forget the class __pagination__, because it includes styling)
 
 ### Props
 
