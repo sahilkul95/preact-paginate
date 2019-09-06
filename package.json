@@ -1,0 +1,49 @@
+{
+  "name": "preact-paginate",
+  "version": "1.0.0",
+  "description": "A dynamic pagination component for use in Preact application",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepublish": "rm -rf ./dist && npm run build",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sahilkul95/preact-calendar.git"
+  },
+  "keywords": [
+    "preact",
+    "react",
+    "pagination",
+    "paginate"
+  ],
+  "files": [
+    "dist/*"
+  ],
+  "author": "Sahil Kulkarni <sahil.kulkarni95@gmail.com>",
+  "license": "GNU",
+  "dependencies": {
+    "preact": "^8.2.7"
+  },
+  "peerDependencies": {
+    "preact": "^8.2.7"
+  },
+  "bugs": {
+    "url": "https://github.com/sahilkul95/preact-paginate/issues"
+  },
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^3.2.0",
+    "eslint": "^4.19.1",
+    "eslint-plugin-react": "^7.5.1",
+    "path": "^0.12.7",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^3.2.1"
+  }
+}
