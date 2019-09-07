@@ -1,6 +1,6 @@
 {
   "name": "preact-paginate",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A dynamic pagination component for use in Preact application",
   "main": "dist/index.js",
   "scripts": {
@@ -22,7 +22,7 @@
     "dist/*"
   ],
   "author": "Sahil Kulkarni <sahil.kulkarni95@gmail.com>",
-  "license": "GNU",
+  "license": "MIT",
   "dependencies": {
     "preact": "^8.2.7"
   },
