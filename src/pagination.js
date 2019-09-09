@@ -24,7 +24,7 @@ export default class Pagination extends Component {
   render(props, {}) {
     if (!Number(props.count)) props.count = 1;
     return createElement('div', {className: "pagination"},
-      createElement('form', {onClick: this.goToPage.bind(this)},
+      createElement('form', {onSubmit: this.goToPage.bind(this)},
         createElement('div', {},
           createElement('span', {}, `${props.currentPageNo} / ${Math.ceil(props.count/10)}`),
           createElement('button', {type: 'button', className: 'filter-btn', style: 'margin: 0 5px;', onClick: this.onPreviosPageClick.bind(this),
